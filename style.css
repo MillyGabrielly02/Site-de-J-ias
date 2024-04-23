@@ -1,0 +1,382 @@
+@charset "UTF-8";
+
+body 
+{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    min-height: 480vh;
+    padding: 3px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container 
+{
+    width: 90%;
+    max-width: 1000px;
+    background: #000000;
+    min-height: 480vh;
+    margin: 90px auto;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+
+.top 
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(2, 2, 160);
+}
+ 
+
+.imgbx 
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+
+.menu 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-left: center;
+}
+
+
+.menu li 
+{
+    display: inline-block; /* Exibe os itens do menu em linha */
+    margin-right: 20px; /* Adiciona espaço entre os itens do menu (opcional) */
+}
+
+
+.menu li:last-child 
+{
+    margin-right: 5; /* Remove a margem direita do último item do menu */
+}
+
+
+.menu li a 
+{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.menu li a:hover 
+{
+    background-color: #000000;
+}
+
+
+.carrossel 
+{
+    width: 60%; /* Ajuste conforme necessário */
+    margin-left: 40px; /* Adiciona margem à esquerda para separar do menu*/
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+
+.Sobre_Polly_Joias
+{
+    text-align: en;
+    position: left;
+}
+
+
+p
+{
+    color: rgb(255, 255, 255); 
+    text-align: justify; /* Alinha o texto ao centro */
+}
+
+
+.Sobre_Polly_Joias 
+{
+    background-color: rgb(2, 2, 160); /* Define a cor de fundo como azul */
+    padding: 30px; /* Adiciona preenchimento interno */
+    color: white; /* Define a cor do texto como branco */
+    border-radius: 0px; /* Adiciona bordas arredondadas */
+    margin-top: 20px; /* Adiciona margem superior para separá-la do carrossel */
+    margin-right: 20px; /* Alinha à direita */
+    margin-left: 20px; /* Adiciona margem à esquerda */
+    display: flex; /* Torna o elemento um flex container */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+}
+
+
+.Sobre_content 
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+    flex-direction: row-reverse; /* Inverte a direção dos itens */
+}
+
+
+.Sobre_img 
+{
+    margin-right: 20px; /* Adapte conforme necessário */
+    align-items: left;
+    justify-content: left;
+}
+
+
+.Sobre_text 
+{
+    flex: 1;
+    margin-right: 20px;
+    text-align: end; /* Alinha o texto à esquerda */
+}
+
+
+/* Estilo dos quadrados dos serviços */
+.service-box 
+{
+    margin-top: 20px; /* Adiciona margem superior para separá-la do carrossel */
+    margin-bottom: 20px;
+    background-color: rgb(2, 2, 160);
+    border-radius: 0px;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgb(2, 2, 160);
+}
+
+
+.column 
+{
+    float: left;
+    width: 30%; /* Ajuste conforme necessário */
+    padding: 10px;
+    text-align: center;
+}
+
+
+.Serviços 
+{
+    
+    padding: 15px 0;
+    margin-left: 70px; /* Adiciona margem à esquerda */
+    margin-right: 5px; /* Adiciona margem à direita */
+}
+
+
+.portfolio-Serviços
+{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.service-box img 
+{
+    width: 200px; /* Tamanho da imagem */
+    border-radius: 0%; /* Tornar a imagem redonda*/
+    margin-bottom: 15px;
+    
+}
+
+
+.title_Polly
+{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.service-box p 
+{
+    margin: 0;
+}
+
+
+.portfolio-Portifólio
+{
+    color: #fff;
+    margin-bottom: 50px; /* Adiciona uma margem inferior maior*/
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+.portfolio 
+{
+    margin-top: 50px; /* Adicione espaço acima da seção "Portfólio" */
+    width: 100%;
+    height: 100%;
+    border: rgb(2, 2, 160);
+    background: rgb(2, 2, 160);
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    max-width: 280px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+
+.portfolio-title 
+{
+    margin-bottom: 50px; /* Adiciona uma margem inferior maior */
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.portfolio img 
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+
+.portfolio .portfolio_hover 
+{ 
+    z-index:2; 
+    width:100%; 
+    height:100%; 
+    position:absolute; 
+    top:-100%; 
+    left:0; 
+    background: rgba(0, 0, 0, 0.90);
+    border-radius:0px;  
+    transition:all 500ms; 
+    -moz-transition:all 500ms; 
+    -ms-transition:all 500ms; 
+    -o-transition:all 500ms; 
+    -webkit-transition:all 500ms;
+}
+
+
+.portfolio:hover .portfolio_hover 
+{
+     top:0;
+}
+
+
+.portfolio:hover .title 
+{
+     left:0;
+}
+
+
+.portfolio:hover .link  
+{ 
+    left:0;
+}
+
+
+.portfolio img 
+{
+    margin-top: 10px; 
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 90%; /* Defina a largura da imagem como 100% do contêiner pai */
+    height: auto; /* Permita que a altura seja ajustada automaticamente para manter a proporção */
+    border-radius: 0px;
+}
+
+
+.title 
+{ 
+    font-family: Helvetica, sans-serif; 
+    position:absolute; 
+    top:35%; 
+    left:100%; 
+    z-index:3; 
+    color:#fff; 
+    text-align:center; 
+    width:100%; 
+    font-size:25px;
+}
+
+
+.link 
+{ 
+    font-family: Helvetica, sans-serif; 
+    position:absolute; 
+    top:55%; 
+    left:-100%; 
+    z-index:3; 
+    color:#0adbdf; 
+    text-align:center; 
+    width:100%; 
+    font-size:16px;
+    text-decoration:none; 
+}
+
+
+.title,.link, .portfolio_hover
+{
+    transition:all 500ms; 
+    -moz-transition:all 500ms; 
+    -ms-transition:all 500ms; 
+    -o-transition:all 500ms; 
+    -webkit-transition:all 500ms;
+}
+
+
+/*RESPONSIVO*/
+/*768PX BREAKPOINT*/
+ @media (min-width:48em)
+{
+.portfolio 
+{  
+    width:32%; margin-right:2%; 
+}
+
+
+.portfolio:nth-of-type(3n+0) 
+{  
+    margin-right:0; 
+}
+}
+
+
+footer 
+{
+    margin-top: 100%;
+    background-color: #0202A0;
+    color: #fff;
+    text-align: center;
+    padding: 55px 0;
+}
