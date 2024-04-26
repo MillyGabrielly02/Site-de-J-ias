@@ -1,87 +1,4 @@
-@charset "UTF-8";
-
-body 
-{
-    display: flex;
-    justify-content: baseline;
-    align-items: baseline;
-    min-height: 480vh;
-    padding: 3px;
-    background-color: #ffffff;
-    width: 100%;
-    height: 100%;
-}
-
-
-.container 
-{
-    width: 90%;
-    max-width: 1000px;
-    background: #000000;
-    min-height: 480vh;
-    margin: 90px auto;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
-}
-
-
-.top 
-{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background-color:rgb(2, 2, 160);
-}
- 
-
-.imgbx 
-{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 20px;
-}
-
-
-.menu 
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Centraliza o texto horizontalmente */
-    margin-left: center;
-}
-
-
-.menu li 
-{
-    display: inline-block; /* Exibe os itens do menu em linha */
-    margin-right: 20px; /* Adiciona espaço entre os itens do menu (opcional) */
-}
-
-
-.menu li:last-child 
-{
-    margin-right: 5; /* Remove a margem direita do último item do menu */
-}
-
-
-.menu li a 
-{
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-
-.menu li a:hover 
-{
-    background-color: #000000;
-}
-
-
-.carrossel 
+@cha.carrossel 
 {
     width: 60%; /* Ajuste conforme necessário */
     margin-left: 40px; /* Adiciona margem à esquerda para separar do menu*/
@@ -153,7 +70,7 @@ p
     background-color: rgb(2, 2, 160);
     border-radius: 0px;
     width: 200px;
-    height: 400px;
+    height: 555px;
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -210,6 +127,91 @@ p
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+rset "UTF-8";
+
+body 
+{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    min-height: 480vh;
+    padding: 3px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container 
+{
+    width: 90%;
+    max-width: 1000px;
+    background: #000000;
+    min-height: 480vh;
+    margin: 90px auto;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+
+.top 
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(2, 2, 160);
+}
+ 
+
+.imgbx 
+{
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.menu 
+{
+    list-style-type: none;
+    margin-right: 90px;
+    margin-left: 90px;
+    padding: 0;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-left: center;
+}
+
+
+.menu li 
+{
+    display: inline-block; /* Exibe os itens do menu em linha */
+    margin-right: 20px; /* Adiciona espaço entre os itens do menu (opcional) */
+}
+
+
+.menu li:last-child 
+{
+    margin-right: 5; /* Remove a margem direita do último item do menu */
+}
+
+
+.menu li a 
+{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.menu li a:hover 
+{
+    background-color: #000000;
+}
+
+
 
 
 .service-box p 
@@ -217,10 +219,21 @@ p
     margin: 0;
 }
 
-
+.portfolio-Portifólio-01
+{
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 .portfolio-Portifólio
 {
     color: #fff;
+    margin-top: 100px;
     margin-bottom: 50px; /* Adiciona uma margem inferior maior*/
     color: #ffffff;
     font-size: 30px;
